@@ -27,12 +27,12 @@ void removeProduct(int Q, int code, int t[][2], int *taille) {
             } else {
                 printf("Erreur : La quantite a retirer non valable.\n");
             }
-        }
+        }else 
+        printf("Le produit n'existe pas.\n");
+    
     }
 
-    if (produit_existe == 0) {  
-        printf("Le produit n'existe pas.\n");
-    }
+   
 }
 
 void affiche(int t[][2], int taille) {
